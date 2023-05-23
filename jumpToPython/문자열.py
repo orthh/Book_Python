@@ -119,4 +119,30 @@ print(a.count('b'));
 # 위치 알려주기1(find)
 a = "Python is the best choice"
 print(a.find("b"))
-print(a.find("k"))
+print(a.find("k")) # -1
+
+# 위치 알려주기2(index)
+a = "Life is too short"
+print(a.index("t"))
+#print(a.index("k")) 문자열에 존재하지 않는 문자를 찾으면 오류 발생
+
+#문자열 삽입(join)
+print(",".join('abcd')); # a,b,c,d
+
+a = "hi"
+print(a.upper()) # HI
+print(a) # hi
+
+print(a.lower())
+
+a = " hi "
+print(a.lstrip()) # 'hi '
+
+a = " hi "
+print(a.rstrip()) # ' hi'
+
+a = " hi "
+print(a.strip()) # 'hi'
+
+a = "Life is too short"
+print(a.split())
